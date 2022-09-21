@@ -11,5 +11,8 @@ export ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-syntax-highlighting macos)
 source $ZSH/oh-my-zsh.sh
 
-# p10k config setup
+# p10k setup
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# fzf setup
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
